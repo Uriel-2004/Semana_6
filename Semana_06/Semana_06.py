@@ -31,7 +31,19 @@ def ejer2():
     print("Suma de impares: ",si)
     print("/nGracias por utilizar el sistema. Presione enter para salir")
 
-    def ejer3():
+def ejer3():
+     f = int(input("Ingrese la cantidad de filas: "))
+     c = int(input("Ingrese la cantidad de columnas: "))
 
+     print()
 
-    ejer3()
+     i = 0
+     while i <= f:
+         j = 0
+         while j <= c:
+             print("*", end=" ")
+             j+=1
+         print()
+         i+=1
+
+ejer3()
